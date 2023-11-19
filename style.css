@@ -2,6 +2,20 @@
     /* border: 1px solid red; */
 }
 
+a{
+    color: #BD5D44;
+    text-decoration: none;
+}
+a:hover  {
+    color: #DAA588;
+    text-decoration: none;
+}
+
+h2 {
+    text-align:justify;
+    align-items: center;
+}
+
 .navlocation {
 
     /* z-index: -1; */
@@ -52,6 +66,10 @@
     box-shadow: none;
 }
 
+.btn-primary:disabled {
+    background-color: #E8B8C7;
+}
+
 *, ::before, ::after {
     --tw-ring-color: none;
 }
@@ -59,6 +77,7 @@
 .carouselholder {
     width: 70%; /* Adjust the width as needed */
     margin: auto; /* Center the carousel horizontally */
+    padding-bottom: 5%;
 }
 
 .carousel-inner {
@@ -107,10 +126,14 @@
     color: white;
 }
 
+.btn-link-disabled-color {
+    background-color: grey;
+}
+
 .footer-container {
     align-items: center;
     bottom: 0;
-    position: fixed;
+    position:relative;
     display: flex;
     flex-direction: row;
     width: 100%;
