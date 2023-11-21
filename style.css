@@ -16,6 +16,11 @@ h2 {
     align-items: center;
 }
 
+h5 {
+    text-align: justify;
+    align-items: center;
+}
+
 .navlocation {
 
     /* z-index: -1; */
@@ -97,6 +102,16 @@ h2 {
     left: 0;
 }
 
+.mapholder img{
+    display: flex;
+    left: 50px;
+    position: fixed;
+    transform: translate(250%, -200%);
+    align-content: right;
+    background-color: red;
+    
+}
+
 .form-control {
     display: block;
     width: 100%;
@@ -133,7 +148,7 @@ h2 {
 .footer-container {
     align-items: center;
     bottom: 0;
-    position:relative;
+    position: fixed;
     display: flex;
     flex-direction: row;
     width: 100%;
